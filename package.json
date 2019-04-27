@@ -1,0 +1,25 @@
+{
+  "name": "guid-converter",
+  "version": "1.0.0",
+  "description": "Convert from GUID to RAW(16) and vice versa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "guid",
+    "raw",
+    "raw16",
+    "convert",
+    "raw(16)"
+  ],
+  "author": "lucasfernog",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "clipboardy": "^2.0.0",
+    "raw-guid-converter": "^1.0.38"
+  },
+  "bin": {
+    "guidc": "./cli.js"
+  }
+}
